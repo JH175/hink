@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
-    <header className='flex items-center justify-between p-10 h-screen'>
-      <div className='gap-2 flex flex-col'>
+    <header className='flex flex-col md:flex-row items-center justify-between p-10 md:h-screen gap-10'>
+      <div className='gap-10 flex flex-col items-center'>
         <h1 className='text-6xl'>Jake H.</h1>
         <h2 className='text-2xl md:text-4xl'>Frontend Web Developer</h2>
         <p className='text-xl'>
