@@ -11,16 +11,16 @@ const Nav = () => {
       </div>
       <nav>
         <ul className='flex gap-5 text-lg'>
-          <li>
+          <li className='hover:text-teal-900'>
             <a href='#about'>About</a>
           </li>
-          <li>
+          <li className='hover:text-teal-900'>
             <a href='#skills'>Skills</a>
           </li>
-          <li>
+          <li className='hover:text-teal-900'>
             <a href='#projects'>Projects</a>
           </li>
-          <li>
+          <li className='hover:text-teal-900'>
             <a href='#contact'>Contact</a>
           </li>
         </ul>
