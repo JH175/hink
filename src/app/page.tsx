@@ -63,15 +63,33 @@ export default function Home() {
         <div className='flex flex-col items-center gap-5'>
           <Project
             name='OpsCommon'
-            description=''
+            description='OpsCommon allows organizations to synchronize operational information onto a single dashboard to track teams, tasks, assets, and more.'
+            stack={[
+              'React,',
+              'Next.js,',
+              'MySQL,',
+              'Prisma ORM,',
+              'Tailwind CSS,',
+              'Clerk Auth,',
+              'Mapbox',
+            ]}
             githubLink=''
-            projectLink=''
+            projectLink='https://www.opscommon.com/'
           />
           <Project
             name='Casualty.Live'
-            description=''
-            githubLink=''
-            projectLink=''
+            description='Casualty.Live enables lightweight & informed telemedicine by allowing users to send and trend patient vitals with a link.'
+            stack={[
+              'React,',
+              'Next.js,',
+              'MySQL,',
+              'Prisma ORM,',
+              'Tailwind CSS,',
+              'Recharts,',
+              'TanStack Query',
+            ]}
+            githubLink='https://github.com/JH175/casualty.live'
+            projectLink='https://casualty-live.vercel.app/'
           />
         </div>
       </div>
