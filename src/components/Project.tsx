@@ -20,7 +20,7 @@ const Project = ({
           <span key={item}>{item}</span>
         ))}
       </div>
-      <div className='flex gap-5'>
+      <div className='flex gap-5 justify-end text-blue-800'>
         {githubLink ? (
           <a target='_blank' href={githubLink}>
             Repo
