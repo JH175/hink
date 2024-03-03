@@ -12,7 +12,7 @@ const Project = ({
   stack?: string[];
 }) => {
   return (
-    <div className='border p-2 md:w-[50vw] flex flex-col gap-2'>
+    <div className='border p-5 md:w-[50vw] flex flex-col gap-2'>
       <p className='text-xl'>{name}</p>
       <p>{description}</p>
       <div className='flex flex-wrap gap-2'>
